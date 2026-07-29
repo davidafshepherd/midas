@@ -1,0 +1,7 @@
+general:
+    kafka-topic: trader-updates
+
+spring:
+    kafka:
+        consumer:
+            auto-offset-reset: earliest
