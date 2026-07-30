@@ -14,7 +14,7 @@ public class TransactionListener {
         this.transactionService = transactionService;
     }
 
-    @KafkaListener(topics = "${general.kafka-topic}", groupId = "midas-core")
+    @KafkaListener(topics = "${general.kafka-topic}")
     public void listen(Transaction transaction) {
         transactionService.process(transaction);
     }

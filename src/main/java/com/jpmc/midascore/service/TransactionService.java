@@ -1,6 +1,6 @@
 package com.jpmc.midascore.service;
 
-import com.jpmc.midascore.dto.Incentive;
+import com.jpmc.midascore.foundation.Incentive;
 import com.jpmc.midascore.entity.TransactionRecord;
 import com.jpmc.midascore.entity.UserRecord;
 import com.jpmc.midascore.foundation.Transaction;
