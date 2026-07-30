@@ -1,7 +1,6 @@
-package com.jpmc.midascore.listener;
+package com.jpmc.midascore.component;
 
 import com.jpmc.midascore.foundation.Transaction;
-import com.jpmc.midascore.service.TransactionService;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
