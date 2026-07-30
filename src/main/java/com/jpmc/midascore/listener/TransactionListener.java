@@ -1,4 +1,4 @@
-package com.jpmc.midascore.component;
+package com.jpmc.midascore.listener;
 
 import com.jpmc.midascore.foundation.Transaction;
 import com.jpmc.midascore.service.TransactionService;
