@@ -1,7 +1,5 @@
 # Midas Core
 
-Project repo for the JPMC Advanced Software Engineering Forage program.
-
 The Midas system is a high-profile initiative responsible for processing financial transactions at scale. 
 
 Midas Core is the service responsible for receiving, validating and recording financial transactions.
