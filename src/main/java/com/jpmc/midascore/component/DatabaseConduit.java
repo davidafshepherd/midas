@@ -60,4 +60,14 @@ public class DatabaseConduit {
     public UserRecord queryUser(Long userId) {
         return userRepository.findById(userId).orElse(null);
     }
+
+    public float queryUserBalance(Long userId) {
+        UserRecord userRecord = queryUser(userId);
+        if (userRecord == null) {
+            return 0;
+        }
+        else {
+            return userRecord.getBalance();
+        }
+    }
 }
