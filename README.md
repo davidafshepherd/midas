@@ -2,7 +2,7 @@
 
 The Midas system is a high-profile initiative responsible for processing financial transactions at scale. 
 
-Midas Core is the service responsible for receiving, validating and recording financial transactions.
+Midas Core is the service responsible for receiving, validating and recording the financial transactions.
 
 ## Implementation
 
